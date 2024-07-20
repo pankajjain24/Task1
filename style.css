@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav li {
+  margin-right: 20px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+#nav a {
+  color: #000; /* Change text color to black */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#nav a:hover {
+  color: #e30808; /* Keep hover color as red */
+}
+
+#nav li:hover {
+  background-color: #555;
+  color: #fff; /* Keep hover background color and text color as before */
+}
+
+.page-content {
+  padding-top: 50px;
+}
+
+/* Scroll effect */
+#nav.scrolled {
+  background-color: #444;
+  color: #fff;
+}
